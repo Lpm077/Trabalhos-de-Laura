@@ -1,0 +1,42 @@
+a{
+    color: gray;
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+.botao {
+    display: inline-block;
+    padding: 3px 20px;
+    background-color: lightgray;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+ 
+
+}
+
+.botao:hover {
+    background-color: gray;
+}
+.parte-colorida {
+    background-color: darkgray; 
+    width: 100%;
+    height: 68px; 
+    padding: 20px;
+
+
+
+}
+
+.container {
+text-align: center;
+  
+}
+h1{
+    color: black;
+    text-align: justify;
+    
+}
+p{
+    text-align: justify;
+}

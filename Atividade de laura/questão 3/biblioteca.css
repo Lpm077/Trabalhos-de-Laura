@@ -1,0 +1,57 @@
+a{
+    color: gray;
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+.botao {
+    display: inline-block;
+    padding: 3px 20px;
+    background-color: lightgray;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+ 
+
+}
+
+.botao:hover {
+    background-color: gray;
+}
+.parte-colorida {
+    background-color: darkgray; 
+    width: 100%;
+    height: 110px; 
+    padding: 20px;
+  
+
+
+
+}
+.parte-colorida2 {
+    background-color: darkgray; 
+    width: 100%;
+    height: 400px; 
+    padding: 20px;
+ 
+  
+
+
+
+}
+
+.container {
+text-align: center;
+  
+}
+h1{
+    color: black;
+    text-align: justify;
+    
+}
+table{
+    width: 100%;
+}
+.tr2{
+    background-color: gray;
+}
