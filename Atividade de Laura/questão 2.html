@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>questão 2</title>
+    <style>
+   
+
+body {
+  margin:0;
+  background-color: white;
+}
+
+.header {
+  height: 70px;
+  background-color: rebeccapurple; 
+}
+
+.container {
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+  background-color: grey; 
+  flex-direction: column;
+}
+
+.div-azul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.purple {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+
+.box {
+  height: 300px;
+  border-radius: 5px;
+}
+
+.azul {
+  background-color:blue; 
+  
+  
+}
+
+.roxo {
+  background-color: purple;
+  
+}
+
+.footer {
+  height: 30px;
+  background-color: cyan; 
+  margin-top: 10px;
+}
+</style>
+
+</head>
+<body>
+     <header class="header"></header>
+     <main class="container">
+   
+    
+    <div class="div-azul">
+      <div class="box azul"></div>
+      <div class="box azul"></div>
+      <div class="box azul"></div>
+    </div>
+    
+    <div class="purple">
+      <div class="box roxo"></div>
+      <div class="box roxo"></div>
+      <div class="box roxo"></div>
+      <div class="box roxo"></div>
+      <div class="box roxo"></div>
+       <div class="box roxo"></div>
+    
+    
+   
+  </div>
+</main>
+ <footer class="footer"></footer>
+</body>
+</html>

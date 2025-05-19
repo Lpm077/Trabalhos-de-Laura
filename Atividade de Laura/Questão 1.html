@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background-color: grey;
+      margin: 0;
+     
+    }
+     .alemanha{
+         
+         height: 100px;
+         width: 100px;
+     }
+     .container-wrapper{
+         display: flex;
+         justify-content: center; 
+         align-items: center; 
+         height: 90vh; 
+     }
+     .container{
+         display: grid;
+         grid-template-columns: repeat(2, 100px); 
+         gap: 10px
+     }
+     #um{
+         background-color: blue;
+     }
+     #dois{
+         background-color: cyan;
+     }
+     #três{
+         background-color: darkblue;
+     }
+     #quatro{
+         background-color: lightblue;
+     }
+     
+
+
+  </style>
+</head>
+<body>
+    <div class="container-wrapper"> 
+    <div class="container">
+ <div class="alemanha" id="um"></div>
+ <div class="alemanha" id="dois"></div>
+ <div class="alemanha" id="três"></div>
+ <div class="alemanha"id="quatro"></div>
+</div>
+</div>
+</body>
+</html>
